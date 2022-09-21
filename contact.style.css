@@ -51,7 +51,8 @@ Outline: none;
 background: #f5f5f5;
 font-size: 16px;
 display: flex;
-width: 400px;
+max-width: 400px;
+padding: 2vw 4vw;
 
 
 
