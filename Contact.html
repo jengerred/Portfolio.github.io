@@ -7,32 +7,26 @@
 </head>
 <body>
     <div class="container">
-       <form onsubmit="sendEmail(); reset(); return false;">
-           <h3>Contact Jennifer</h3>
-           <input type="text" id="name" placeholder="Your Name" required>
-           <input type="email" id="email" placeholder="Email" required>
-           <input type="text" id="phone" placeholder="Phone no.">
-           <textarea id="message" rows="4" placeholder="Message"></textarea>
-           <button type="submit">send</button>
+        <form target="_blank" action="https://formsubmit.co/jengerred@aol.com" method="POST">
+        <h1>Contact Jennifer</h1>
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+              </div>
+              <div class="col">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+          </div>
+          <button type="submit" class="submit-button">Submit</button>
         </form>
-    </div>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+      </div>
     <script>
-        function sendEmail(){
-            Email.send({
-    SecureToken: "273cd7ba5-4200-4827-b214-ccbef1ffd7f1",  
-    To : 'jengerred@aol.com',
-    From : document.getElementById("email").value,
-    Subject : "New Contact Form Enquiry",
-    Body : "Name: " + document.getElementById("name").value
-    + "<br> Email: " + document.getElementById("email").value
-    + "<br> Phone no: " + document.getElementById("phone").value
-    + "<br> Message: " + document.getElementById("message").value
-
-}).then(
-  message => alert("Message Sent Successfully")
-);
-        }
+     
     </script>
 
 </body>
