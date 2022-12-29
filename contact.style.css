@@ -1,4 +1,7 @@
- *{
+body {
+    font-family: ariel;
+}
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +10,7 @@
 
  .container{
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background:  rgb(58, 4, 58);
     display: flex;
     align-items: center;
@@ -35,6 +38,7 @@ form{
     max-width: 600px;
     border-radius: 10px;
     box-shadow: 0px 30px 80px rgb(149, 0, 255);
+   
 }
 
 form h3{
@@ -43,7 +47,7 @@ form h3{
     font-weight: 800px;
 }
 
-form input, form textarea{
+form input, form textarea {
 border: 0;
 margin: 10px 0;
 padding: 20px;
@@ -66,12 +70,11 @@ padding: 2vw 4vw;
     outline: none;
     cursor: pointer;
     width: 150px;
-    margin: 25px auto 0;
     background-color: rgb(156, 10, 156);
     box-shadow: 0px 10px 20px rgb(149, 0, 255);
     border-radius: 30px;
     text-align: center;
-    margin: 0px;
+    margin: 45px;
     text-decoration: none;
     }
     
@@ -92,6 +95,114 @@ h1 {
   text-align: center;
   color: black;
   text-shadow: 0 2px 2px rgb(156, 10, 156);
-  font-size: 40px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 3px rgb(149, 0, 255)
   
 }
+.logo {
+    height: 80px;
+    margin: 30px;
+    text-shadow: 1px 3px black;
+}
+.hero {
+    margin-top: 20px;
+    background-color: #1c1c1c;
+    height: 30vh;
+    color: white;
+    font-size: 40px;
+}
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+    box-shadow: 0 10px 20px 0 rgb(149, 0, 255);
+}
+
+nav a {
+color:white;
+text-decoration: none;
+}
+
+nav a:hover {
+    background-color:rgb(149, 0, 255);
+	color:#fff;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+    text-shadow: 1px 3px black;
+    margin: 30px;
+}
+
+li {
+    text-decoration: none;
+}
+@media only screen and (max-width: 900px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        margin: 20px;
+        font-size: 30px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: purple;
+        margin: 0px;
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        background-color: purple;
+        box-shadow: 0 10px 20px 0 rgb(149, 0, 255);
+    }
+
+  
+}
+.hamburger {
+    display: none;
+}
+.hero-text {
+    color: white;
+    font-family: cursive;
+    font-size: 100px;
+    margin: 30px;
+}
+.socials {
+    margin: 30px;
+}
+
+.logo {
+    height: 80px;
+    margin: 30px;
+    text-shadow: 1px 3px black;
+    font-family: cursive;
+}
+
+.social {
+    margin: 20px;
+}
+.hero-area {
+    display: flex;
+height: 20vh;
+justify-content: space-between;
+align-items: center;
+}
+
+
+
