@@ -4,7 +4,7 @@
 This is the homepage to my portfolio. It has links to my projects page and my contact me page. This page also includes an about me section. 
 ## How to Run:  
 Just view the page to get to know me as a web developer and click on the navigation bar at the top or the links/buttons within the page. 
-## Roadmap of future improvements:: 
+## Roadmap of future improvements: 
 I plan on adding a youtube video....maybe... I am a very introverted and private person so adding a video makes me anxious. 
 ## License information: 
 MIT License
