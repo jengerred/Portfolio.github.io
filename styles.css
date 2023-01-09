@@ -1,12 +1,11 @@
 body {
     font-family: ariel;
 }
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+   
 }
 
 section {
@@ -121,7 +120,8 @@ align-items: center;
 }
 
 .button {
-width: 200px;
+width: 40vw;
+max-width: 200px;
 height: 40px;
 background-color: purple;
 box-shadow: 0px 10px 20px rgb(149, 0, 255);
@@ -138,7 +138,6 @@ text-decoration: none;
 
 .button2 {
     align-self: center;
-    width: 500px;
 height: 60px;
 background-color: purple;
 box-shadow: 0px 10px 20px rgb(149, 0, 255);
@@ -269,10 +268,10 @@ nav a:hover {
     box-shadow: 0 2px 5px 0 rgb(149, 0, 255);
 }
 
-hr {
+.big {
     height: 5px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 10vw;
+    margin-right: 10vw;
    background-color: rgb(126, 29, 194);
    box-shadow: 0 5px 10px 0 rgb(149, 0, 255);
 }
@@ -325,7 +324,6 @@ a img:hover {
           }
 
 .reg {
- 
     left: 0%;
  padding: 80px;
  padding-top: 0px;
@@ -381,7 +379,7 @@ a img:hover {
     .hero-area {
         display: flex;
     align-items: center;
-      width:100vw;
+      width:100%;
 
     }
     h1 {
@@ -471,4 +469,9 @@ width: 80vw;
        bottom: 2%;
        left: 10%;
       }
+    }
+    @media only screen and (max-width: 306px) {
+    .button {
+        height: 80px;
+    }
     }
