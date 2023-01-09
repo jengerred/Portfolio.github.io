@@ -26,6 +26,7 @@ section {
     height: 100vh;
     color: white;
     font-size: 40px;
+    width:auto;
 }
 
 footer {
@@ -33,8 +34,10 @@ footer {
     background-color: black;
     color:white;
     text-align: center;
-    padding: 80px;
+   padding-top: 20px;
+   width:100%;
 }
+
 
 nav {
     height: 15vh;
@@ -106,6 +109,7 @@ p {
 .hero-area {
 display: flex;
 height: 100%;
+width: 100%;
 justify-content: space-between;
 align-items: center;
 }
@@ -361,6 +365,8 @@ a img:hover {
 
     ul.show {
         display: block;
+       margin-top: 20px;
+        margin-left: 30px;
     }
 
     nav {
@@ -369,10 +375,21 @@ a img:hover {
         flex-direction: column-reverse;
         background-color: purple;
         box-shadow: 0 10px 20px 0 rgb(149, 0, 255);
+       
     }
 
     .logo {
         display: none;
+    }
+
+    .hero-area {
+        display: flex;
+    align-items: center;
+      width:100vw;
+
+    }
+   h1 {
+        font-size: 69px;
     }
     .small-video {
   display: grid;
@@ -430,9 +447,24 @@ width: 80vw;
     background-color:rgb(149, 0, 255);
     box-shadow: 0 0px 20px 30px rgb(149, 0, 255);
 }
+.socials {
+    position: relative;
+    right: 0%;
+ 
+    padding-top: 15px;
+  
+  }
 
 .reg {
     display: none;
 }
+.button2 {
+    max-width:90vw;
 }
+}
+@media only screen and (max-width: 680px) {
+    h1 {
+        font-size: 59px;
+    }
+    }
 
