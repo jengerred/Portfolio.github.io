@@ -108,14 +108,14 @@ p {
 }
 .hero-area {
 display: flex;
-height: 100%;
-width: 100%;
+height: 100vh;
+width: 100vw;
 justify-content: space-between;
 align-items: center;
 }
 
 .hero-text {
-    margin-left: 80px;
+    margin-left: 10vw;
     margin-bottom: 200px;
     text-decoration: none;
 }
@@ -342,11 +342,7 @@ a img:hover {
         box-shadow: 0 0px 20px 30px rgb(149, 0, 255);
     }
   
-
- 
-
-
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 980px) {
     .hamburger {
         display: block;
         border: 0;
@@ -391,12 +387,7 @@ a img:hover {
     h1 {
         font-size: 100px;
     }
-    
- }
- @media only screen and (max-width: 950px) {
-     .button2 {
-         font-size: 20px; ;
-     }
+       
     .small-video {
   display: grid;
 width: 80vw;
@@ -466,6 +457,18 @@ width: 80vw;
 }
 .button2 {
     max-width:90vw;
+    font-size: 20px;
 }
-
-
+}
+@media only screen and (max-width: 740px) {
+    h1 {
+        font-size: 10vw;
+    }
+}
+@media only screen and (max-width: 740px) {
+    .socials {
+       position: absolute;
+       bottom: 2%;
+       left: 10%;
+      }
+    }
