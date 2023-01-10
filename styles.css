@@ -219,7 +219,9 @@ nav a:hover {
      margin-right: 80px;
 }
 
-
+.video {
+    box-shadow: 0 5px 20px 0px rgb(149, 0, 255);
+}
 
 .information {
     display: grid;
